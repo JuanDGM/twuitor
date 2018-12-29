@@ -2,7 +2,7 @@
 
 var url = window.location.href;
 
-var swlocation = '/twuitor/sw.js';
+var swlocation = '/Twuitor/sw.js';
 
 
 // instanciar sw
