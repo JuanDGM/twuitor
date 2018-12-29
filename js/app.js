@@ -1,10 +1,21 @@
 
+
+var url = window.location.href;
+
+var swlocation = '/twuitor/sw.js';
+
+
 // instanciar sw
 
 
 if(navigator.serviceWorker){
    
-    navigator.serviceWorker.register('./sw.js');
+   
+   if(url.includes('localhost')){
+       swlocation = './sw.js';
+   }
+   
+    navigator.serviceWorker.register(swlocation);
     
 }
 
