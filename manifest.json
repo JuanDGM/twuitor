@@ -4,7 +4,7 @@
 
   "short_name": "Twuitor",
   "name": "Twuittor para heroes",
-  "start_url":"/index.html",
+  "start_url":"index.html",
   "background_color": "#3498bd",
    "theme_color": "#3498bd", 
    "display":"standalone", 
